@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+                          /******  NAV  ********/
+
+#logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  color: purple;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+  &:hover {
+    color: black;
+    text-decoration: none;
+  }
+}
+
+#navspace {
+  margin-top: 80px;
+}
+
+                            /******  index  ********/
+
+body {
+  background-color: lightgray;
+  background-image: image-url('DPL.png');
+  background-repeat: no-repeat;
+}
+
+
+
