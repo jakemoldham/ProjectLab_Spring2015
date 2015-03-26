@@ -24,7 +24,7 @@
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: purple;
+  color: black;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -39,12 +39,22 @@
   margin-top: 80px;
 }
 
+
+
                             /******  index  ********/
 
 body {
-  background-color: lightgray;
+  background-color: gray;
   background-image: image-url('DPL.png');
-  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat; 
+}
+
+#index_heading {
+  margin-left: 24%;
+  font-size: 70px;
+  font-color: #A9A9A9;
 }
 
 

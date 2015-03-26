@@ -1,8 +1,15 @@
 Rails.application.routes.draw do
-  
-  root      'projects#index'
 
-  resources :projects
+
+  root      'static_pages#index'
+
+  get       'static_pages/about'
+
+  get       'static_pages/contact'
+
+  get       'projects/read'
+
+  resources :projects, only: [:index, :new, :create, :update, :destroy]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
